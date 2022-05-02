@@ -46,7 +46,7 @@ public class Main
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        System.out.print("\nPlease enter a string : ");
+        System.out.print("Please enter a string: ");
         String expr = sc.nextLine();
         if (checkForBalanced(expr))
             System.out.println("\nThe entered String has Balanced Brackets");
